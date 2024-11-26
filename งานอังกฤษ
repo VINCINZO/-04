@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สุขสันต์วันครบรอบ</title>
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6666;
+        }
+        img {
+            width: 300px;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>สุขสันต์วันครบรอบนะครับเบบี๋เตงเบ๊บ!</h1>
+    <p>ขอบคุณที่อยู่เคียงข้างเค้าเสมอมานะ ทุกครั้งที่เราทะเลาะกันเค้าอยากให้เราทั้งคู่ปรับความเข้าใจกันได้ตลอด เค้าอยากมีเธอไปอีกนานๆเลยนะ วันไหนที่เธอเหนื่อยจากการเรียนกับชีวิตเธอมาเล่าให้เค้าฟังได้นะเค้าจะรับฟังเอง เค้าภูมิใจในตัวเธอมากนะ</p>
+    <img src="B&M.jpg" alt="รูปคู่ของเรา">
+    <p>ขอให้เราทั้งคู่เติบโตไปด้วยกันนะ</p>
+    <button class="button" onclick="alert('เค้ารักเธอมากกกกกกกกกเลยนะ!')">กดดูความลับ</button>
+</body>
+</html>
+<script>
+    let heart = document.createElement("div");
+    heart.innerHTML = "❤️";
+    heart.style.position = "absolute";
+    heart.style.animation = "fall 5s infinite";
+    document.body.appendChild(heart);
+</script>
